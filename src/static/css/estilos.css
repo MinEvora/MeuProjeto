@@ -1,0 +1,394 @@
+body{
+    position: relative;
+} 
+.container{
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 181, 162);
+    width: 100%;
+    position: absolute;
+}
+.imagem1{
+    width: 50%;
+    position: absolute;
+    top: 700px;;
+    left: 0px;
+    filter: saturate(1.09);
+}
+.item3{
+    background-color: rgb(255, 107,107);
+    width: 100%;
+    height: 750px;
+    align-items: center;
+}
+.imagem2{
+    width: 50%;
+    position: absolute;
+    top: 750px;
+    right: 0px;
+    filter: brightness(1.25) saturate(1.08);
+}
+.imagem3{
+    height: fit-content;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.item2{
+    background-color: rgb(255,230,109);
+    width: 100%;
+    height: 750px;
+    position: absolute;
+}
+h2{
+    position: absolute;
+    left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+p{
+    position: absolute;
+    left: 10%;
+    max-width: 80%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+h4{
+    position: absolute;
+    left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+.redes1{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+.redes2{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1; 
+}
+.redes3{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+.redes4{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+.redes5{
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+.insta{
+    position: absolute;
+    z-index: 1; 
+}
+.fb{
+    position: absolute;
+    z-index: 1; 
+}
+.twitter{
+    position: absolute;
+    z-index: 1; 
+}
+.email{
+    position: absolute;
+    z-index: 1; 
+}
+.estudos{
+    position: absolute;
+    background-color: rgb(255, 181, 162);
+    border:2px solid rgb(221,61,101);
+    border-radius: 5%;
+    z-index: 1;
+}
+.projetos{
+    position: absolute;
+    background-color: rgb(255, 181, 162);
+    border:2px solid rgb(221,61,101);
+    border-radius: 5%;
+    z-index: 1;
+}
+a {
+    color: rgb(221,61,101);
+    text-decoration: none;
+}
+@media screen and (max-width: 1500px) {
+    .container{
+        height: 50px;
+    }
+    .imagem3{
+        width: 90px;
+    }
+    .item3{
+        top: 50px;
+    }
+    .imagem1{
+        height: 598px;
+    }
+    h2{
+        top: 50px;
+        font-size: 40px;
+    }
+    p{
+        top: 20%;
+        font-size: 30px;
+    }
+    .item2{
+        top: 1298px;
+    }
+    .imagem2{
+        height: 592px;
+    }
+    h4{
+        top: 1300px;
+        font-size: 40px;
+    }
+    .redes1{
+        top: 1525px;
+        font-size: 30px;
+        left: 45%;
+    }
+    .redes2{
+        top: 1630px;
+        left: 45%;
+        font-size: 30px;
+    }
+    .redes3{
+        top: 1750px;
+        left: 45%;
+        font-size: 30px;
+    }
+    .redes4{
+        top: 1860px;
+        left: 45%;
+        font-size: 30px;
+    }
+    .redes5{
+        top: 1910px;
+        left: 45%;
+        font-size: 30px;
+    }
+    .insta{
+        top: 1500px;
+        width: 75px;
+        height: 75px;
+        left: 30%;
+    }
+    .fb{
+        top: 1600px;
+        width: 90px;
+        height: 90px;
+        left: 29.2%;
+    }
+    .twitter{
+        top: 1725px;
+        left: 30%;
+        width: 75px;
+        height: 75px;
+    }
+    .email{
+        top: 1850px;
+        left: 25.5%;
+        width: 160px;
+        height: 100px;
+    }
+    .estudos{
+        top: 25%;
+        right: 20%;
+        font-size: 20px;
+    }
+    .projetos{
+        top: 25%;
+        right: 10%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 800px){
+    .container{
+        height: 40px;
+    }
+    .imagem3{
+        width: 70px;
+    }
+    .item3{
+        top: 40px;
+    }
+    .imagem1{
+        height: 498px;
+    }
+    h2{
+        top: 50px;
+        font-size: 35px;
+    }
+    p{
+        top: 20%;
+        font-size: 25px;
+    }
+    .item2{
+        top: 1198px;
+    }
+    .imagem2{
+        height: 492px;
+    }
+    h4{
+        top: 1200px;
+        font-size: 35px;
+    }
+    .redes1{
+        top: 1425px;
+        font-size: 25px;
+        left: 30%;
+    }
+    .redes2{
+        top: 1530px;
+        left: 30%;
+        font-size: 25px;
+    }
+    .redes3{
+        top: 1650px;
+        left: 30%;
+        font-size: 25px;
+    }
+    .redes4{
+        top: 1760px;
+        left: 30%;
+        font-size: 25px;
+    }
+    .redes5{
+        top: 1810px;
+        left: 30%;
+        font-size: 25px;
+    }
+    .insta{
+        top: 1400px;
+        width: 65px;
+        height: 65px;
+        left: 17%;
+    }
+    .fb{
+        top: 1500px;
+        width: 80px;
+        height: 80px;
+        left: 15.5%;
+    }
+    .twitter{
+        top: 1625px;
+        left: 17%;
+        width: 65px;
+        height: 65px;
+    }
+    .email{
+        top: 1750px;
+        left: 12%;
+        width: 150px;
+        height: 90px;
+    }
+    .estudos{
+        top: 25%;
+        right: 25%;
+        font-size: 17.5px;
+    }
+    .projetos{
+        top: 25%;
+        right: 7%;
+        font-size: 17.5px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container{
+        height: 30px;
+    }
+    .imagem3{
+        width: 50px;
+    }
+    .item3{
+        top: 30px;
+    }
+    .imagem1{
+        height: 348px;
+    }
+    h2{
+        top: 50px;
+        font-size: 30px;
+    }
+    p{
+        top: 20%;
+        font-size: 20px;
+    }
+    .item2{
+        top: 1048px;
+    }
+    .imagem2{
+        height: 342px;
+    }
+    h4{
+        top: 1050px;
+        font-size: 30px;
+    }
+    .redes1{
+        top: 1275px;
+        font-size: 20px;
+        left: 30%;
+    }
+    .redes2{
+        top: 1380px;
+        left: 30%;
+        font-size: 20px;
+    }
+    .redes3{
+        top: 1500px;
+        left: 30%;
+        font-size: 20px;
+    }
+    .redes4{
+        top: 1610px;
+        left: 30%;
+        font-size: 20px;
+    }
+    .redes5{
+        top: 1660px;
+        left: 30%;
+        font-size: 20px;
+    }
+    .insta{
+        top: 1250px;
+        width: 50px;
+        height: 50px;
+        left: 15%;
+    }
+    .fb{
+        top: 1350px;
+        width: 65px;
+        height: 65px;
+        left: 13%;
+    }
+    .twitter{
+        top: 1475px;
+        left: 15%;
+        width: 50px;
+        height: 50px;
+    }
+    .email{
+        top: 1600px;
+        left: 4.5%;
+        width: 135px;
+        height: 75px;
+    }
+    .estudos{
+        top: 25%;
+        right: 30%;
+        font-size: 15px;
+    }
+    .projetos{
+        top: 25%;
+        right: 4%;
+        font-size: 15px;
+    }
+}
