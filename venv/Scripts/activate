@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\rikan\Desktop\Evora\projeto\venv"
+VIRTUAL_ENV="C:\Users\rikan\Desktop\Evora\mru-port\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
