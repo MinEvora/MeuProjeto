@@ -75,7 +75,7 @@ a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 00px){
+@media screen and (max-width: 2000px){
     .container{
         height: 50px;
     }
