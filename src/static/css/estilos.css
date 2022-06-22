@@ -8,24 +8,22 @@ body{
     width: 100%;
     position: absolute;
 }
-.imagem1{
+/*.imagem1{
     width: 50%;
     position: absolute;
-    top: 700px;;
+    top: px;;
     left: 0px;
     filter: saturate(1.09);
-}
+}*/
 .item3{
     background-color: rgb(255, 107,107);
     width: 100%;
-    height: 750px;
+    height: 1300px;
     align-items: center;
 }
 .imagem2{
-    width: 50%;
     position: absolute;
-    top: 750px;
-    right: 0px;
+    top: 775px;
     filter: brightness(1.25) saturate(1.08);
 }
 .imagem3{
@@ -129,9 +127,9 @@ a {
     .item3{
         top: 50px;
     }
-    .imagem1{
+    /*.imagem1{
         height: 598px;
-    }
+    }*/
     h2{
         top: 50px;
         font-size: 40px;
@@ -144,7 +142,8 @@ a {
         top: 1298px;
     }
     .imagem2{
-        height: 592px;
+        height: 492px;
+        left: 300px;
     }
     h4{
         top: 1300px;
@@ -220,9 +219,9 @@ a {
     .item3{
         top: 40px;
     }
-    .imagem1{
+    /*.imagem1{
         height: 498px;
-    }
+    }*/
     h2{
         top: 50px;
         font-size: 35px;
@@ -235,7 +234,8 @@ a {
         top: 1198px;
     }
     .imagem2{
-        height: 492px;
+        height: 392px;
+        left: 90px;
     }
     h4{
         top: 1200px;
@@ -311,9 +311,9 @@ a {
     .item3{
         top: 30px;
     }
-    .imagem1{
+    /*.imagem1{
         height: 348px;
-    }
+    }*/
     h2{
         top: 50px;
         font-size: 30px;
@@ -326,7 +326,8 @@ a {
         top: 1048px;
     }
     .imagem2{
-        height: 342px;
+        height: 242px;
+        left: 50px;
     }
     h4{
         top: 1050px;

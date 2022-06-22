@@ -1,6 +1,9 @@
 body{
     position: relative;
 }
+.linkgit{
+    color: rgb(1, 47, 172);
+}
 .container{
     background-color: rgb(255, 181, 162);
     width: 100%;
